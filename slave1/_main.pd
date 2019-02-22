@@ -1,0 +1,13 @@
+#N canvas 248 23 417 305 10;
+#X obj 140 135 netwerk_common;
+#X obj 140 42 loadbang;
+#X text 17 135 where shit happens:;
+#X obj 140 108 s this_box;
+#X text 59 110 which box? :;
+#X text 112 67 ID:;
+#X text 107 87 the: ---->>;
+#X msg 140 65 667;
+#X text 296 33 netwerk2 PATCH;
+#X text 178 87 SLAVE;
+#X connect 1 0 7 0;
+#X connect 7 0 3 0;
