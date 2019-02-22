@@ -1,6 +1,6 @@
 # networked_cboxes
 
-Three folder consist of Pure Data pathces which used to make the C-boxes. 
+Three folders consist of Pure Data pathces which used to make the C-boxes. 
 
 C-Box runs optimised C code on Bela. All the interaction information received by the sensors is used for controlling the synthesizer. Pitch range of 3 octaves is mapped to y-position of the finger on the TouchKeys sensor. 
 
