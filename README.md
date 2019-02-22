@@ -34,3 +34,6 @@ The solo rule is implemented for allowing a user to play solo by muting all othe
 -If that value is at least 10 percent higher than the average 10-second  value of all the C-Boxes, then that instrument will allow it's user to play solo for 10 seconds: basically the other instruments are muted.
 -The calculation window is toggled on and off for each 10 seconds, so that it does not clash with the Beat Rule.
 -Also, there is a threshold to trigger this rule: If the 10-second average value is below 60 dB(RMS), then the rule is not triggered, even if that box is at least 10 percent louder than the average. Therefore, the solo rules does not kick in, if the performers choose to stay silent.
+
+
+(If the interaction with the boxes needs to be logged, the render file on Bela needs to be manipulated. The data parsing is already implemented in Pure Data)
